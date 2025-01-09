@@ -31,7 +31,7 @@ public class movement : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(Vector2.up * 1000);
+            rb.velocity = new Vector2(0, 10);
         }
     }
 }
