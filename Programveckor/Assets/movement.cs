@@ -29,9 +29,6 @@ public class movement : MonoBehaviour
             rb.velocity = new Vector2(5, 0);
             // walk right
         }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            rb.velocity = new Vector2(0, 10);
-        }
+       
     }
 }
