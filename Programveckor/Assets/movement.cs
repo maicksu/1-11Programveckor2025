@@ -9,26 +9,40 @@ public class movement : MonoBehaviour
     public int maxSpeed;
     public int friction;
 
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+   
         rb.velocity = new Vector2(0, rb.velocity.y);
-        if (Input.GetKey(KeyCode.A))
+
+        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.A))
         {
-            rb.velocity = new Vector2(-5, rb.velocity.y);
+            rb.velocity = new Vector2(-10, rb.velocity.y);
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            {
+                rb.velocity = new Vector2(-5, rb.velocity.y);
+            }
             // walk left
+        }
+
+        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector2(10, rb.velocity.y);
         }
         else if (Input.GetKey(KeyCode.D))
         {
             rb.velocity = new Vector2(5, rb.velocity.y);
             // walk right
         }
-       
     }
 }
