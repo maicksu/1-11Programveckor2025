@@ -1,47 +1,48 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerJump2DSidescroller : MonoBehaviour
+public class PlayerJump : MonoBehaviour
 {
-    public float jumpForce = 5f; // Force applied for jumping
-    public LayerMask groundLayer; // Layer to detect ground
-    public Transform groundCheck; // Reference to ground check point
-    public float groundCheckRadius = 0.2f; // Radius for ground check
+    public float jumpForce = 5f;
+    public bool isGrounded = true;
+    private int jumpCount = 0; // Track the number of jumps
+    public int maxJumps = 2;   // Maximum number of jumps allowed (e.g., 2 for double jump)
 
     private Rigidbody2D rb;
-    private bool isGrounded;
-    // Start is called before the first frame update
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (rb == null)
+        {
+            Debug.LogError("Rigidbody2D not found on the GameObject. Please attach a Rigidbody2D component.");
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Check if the player is grounded
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
-        // Jump input
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        // Check for jump input and if jumps are available
+        if (Input.GetKeyDown(KeyCode.Space) && jumpCount < maxJumps && rb != null)
         {
             Jump();
         }
     }
+
     void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, 0f); // Reset vertical velocity
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); // Apply jump force
+        print("jump");
+        rb.velocity = new Vector2(rb.velocity.x, 0f); // Reset vertical velocity for consistent jumps
+        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        jumpCount++; // Increment jump count
+        isGrounded = false; // Player is no longer grounded after jumping
     }
 
-    void OnDrawGizmos()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Visualize the ground check circle in the editor
-        if (groundCheck != null)
+        // Check if the player lands on the ground
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+            isGrounded = true;
+            jumpCount = 0; // Reset jump count when grounded
         }
     }
 }
