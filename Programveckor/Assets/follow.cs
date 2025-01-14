@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
     public Vector3 offset;  // Offset from the player, so the camera isn't exactly at the player's position
     public float yOffset = 1f;  // Optional vertical offset to keep the camera at a fixed height
 
-    void LateUpdate()
+    void FixedUpdate()
     {
         // Ensure the player reference is assigned
         if (player != null)
