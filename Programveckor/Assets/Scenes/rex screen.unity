@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 903838829}
   - component: {fileID: 903838828}
   m_Layer: 0
-  m_Name: dum
+  m_Name: enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
