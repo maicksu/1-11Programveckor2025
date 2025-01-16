@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Heart
+  - Heart (1)
+  - Heart (2)
   layers:
   - Default
   - TransparentFX
