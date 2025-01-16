@@ -5,9 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+<<<<<<< HEAD
   - Heart
   - Heart (1)
   - Heart (2)
+=======
+  - Enemy
+>>>>>>> ac7830c200a6b9a6285099dfad3d487faf853400
   layers:
   - Default
   - TransparentFX
