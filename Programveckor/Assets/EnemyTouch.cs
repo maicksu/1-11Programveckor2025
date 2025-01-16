@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
                 PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
                 if (playerHealth != null)
                 {
-                    playerHealth.TakeDamage(damagePerSecond);
+                    playerHealth.TakeDamage(damagePerSecond); // Apply damage
                     nextDamageTime = Time.time + damageInterval; // Reset the timer
                 }
             }

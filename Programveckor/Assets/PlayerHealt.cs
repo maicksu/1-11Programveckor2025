@@ -7,33 +7,25 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth; // Initialize player's health
+        currentHealth = maxHealth; // Initialize the player's health
+        Debug.Log("Player Health: " + currentHealth); // Display initial health in the console
     }
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage; // Decrease health by damage amount
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // Ensure health doesn't go below 0
+        currentHealth -= damage;   // Decrease health by the damage amount
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // Prevent health from going below 0
+        Debug.Log("Player Health: " + currentHealth); // Display updated health in the console
 
-        Debug.Log("Player took damage. Current health: " + currentHealth);
-
-        // Check if the player has died
         if (currentHealth <= 0)
         {
-            Die();
+            Die(); // Handle the player's death
         }
-    }
-
-    public void Heal(int healAmount)
-    {
-        currentHealth += healAmount; // Increase health by heal amount
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // Ensure health doesn't exceed max
-        Debug.Log("Player healed. Current health: " + currentHealth);
     }
 
     void Die()
     {
-        Debug.Log("Player died!"); // Handle death
-        print("Player Dead");
+        Debug.Log("Player has died!");
+        // Handle death logic here (e.g., restart level, game over screen)
     }
 }
