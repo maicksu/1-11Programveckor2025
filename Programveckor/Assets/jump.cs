@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
-    public float jumpForce = 5f;
+    private float jumpForce = 7f;
     public bool isGrounded = true;
     private int jumpCount = 0; // Track the number of jumps
-    public int maxJumps = 2;   // Maximum number of jumps allowed (e.g., 2 for double jump)
+    public int maxJumps = 2;   // Maximum number of jumps allowed
 
     private Rigidbody2D rb;
 
