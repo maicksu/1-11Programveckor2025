@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e2b941a98bd8c4b44b3b576b2f8849f4
+guid: 1a2a0513d7a9179469c68465a3d81077
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Final Run animation spritesheet MC PGV_0
+      name: idle evil god_0
       rect:
         serializedVersion: 2
-        x: 199
-        y: 170
-        width: 851
-        height: 937
+        x: 4786
+        y: 1233
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d40f65adae4e5c4eb8df8f4e9c95ea2
-      internalID: 990382696
+      spriteID: 72cf33ddda26fbd4baa8705034fc256b
+      internalID: 853344050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Run animation spritesheet MC PGV_1
+      name: idle evil god_1
       rect:
         serializedVersion: 2
-        x: 1610
-        y: 112
-        width: 809
-        height: 966
+        x: 733
+        y: 699
+        width: 486
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 122c9043eb68c7b4396aea35ab33382a
-      internalID: 1379560622
+      spriteID: 9b9f1b641c9e027409aba8c4d4f5409d
+      internalID: -2140754119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Run animation spritesheet MC PGV_2
+      name: idle evil god_2
       rect:
         serializedVersion: 2
-        x: 3060
-        y: 112
-        width: 727
-        height: 995
+        x: 2648
+        y: 699
+        width: 492
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f19165468dc58b24cbc5397fd2c7b636
-      internalID: 737498490
+      spriteID: 78418757a2e7bd74a8a95cdc7375720f
+      internalID: -401745668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Run animation spritesheet MC PGV_3
+      name: idle evil god_3
       rect:
         serializedVersion: 2
-        x: 4424
-        y: 170
-        width: 756
-        height: 951
+        x: 4575
+        y: 699
+        width: 478
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,71 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 957a14ed3616aad4180aad1c1fabe725
-      internalID: -1868053614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Final Run animation spritesheet MC PGV_4
-      rect:
-        serializedVersion: 2
-        x: 5778
-        y: 175
-        width: 876
-        height: 941
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 236b18b2ffd5b5f499a366ea48829db2
-      internalID: -281783220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Final Run animation spritesheet MC PGV_5
-      rect:
-        serializedVersion: 2
-        x: 7214
-        y: 112
-        width: 765
-        height: 976
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2032664aed1a740418ea30770bcb7704
-      internalID: -1704879679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Final Run animation spritesheet MC PGV_6
-      rect:
-        serializedVersion: 2
-        x: 8566
-        y: 156
-        width: 844
-        height: 956
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1abf2367a7e3e947ad6ef248024ac0a
-      internalID: 1198350090
+      spriteID: f3ab77f1bfc159249bfab140cff96542
+      internalID: -1661711199
       vertices: []
       indices: 
       edges: []
@@ -254,13 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Final Run animation spritesheet MC PGV_0: 990382696
-      Final Run animation spritesheet MC PGV_1: 1379560622
-      Final Run animation spritesheet MC PGV_2: 737498490
-      Final Run animation spritesheet MC PGV_3: -1868053614
-      Final Run animation spritesheet MC PGV_4: -281783220
-      Final Run animation spritesheet MC PGV_5: -1704879679
-      Final Run animation spritesheet MC PGV_6: 1198350090
+      idle evil god_0: 853344050
+      idle evil god_1: -2140754119
+      idle evil god_2: -401745668
+      idle evil god_3: -1661711199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
