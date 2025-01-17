@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0f61aaebd7a5e2742b320df5d9375149
+guid: e2b941a98bd8c4b44b3b576b2f8849f4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Prototype_spritesheet_run_PGV_0
+      name: Final Run animation spritesheet MC PGV_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 67
-        width: 321
-        height: 376
+        x: 199
+        y: 170
+        width: 851
+        height: 937
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 924d2074c30d6e040b8b1dcee4b8d1c0
-      internalID: -212153425
+      spriteID: 1d40f65adae4e5c4eb8df8f4e9c95ea2
+      internalID: 990382696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prototype_spritesheet_run_PGV_1
+      name: Final Run animation spritesheet MC PGV_1
       rect:
         serializedVersion: 2
-        x: 662
-        y: 47
-        width: 304
-        height: 383
+        x: 1610
+        y: 112
+        width: 809
+        height: 966
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d3c0f82ff9579942a068326a82bc177
-      internalID: -1461730086
+      spriteID: 122c9043eb68c7b4396aea35ab33382a
+      internalID: 1379560622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prototype_spritesheet_run_PGV_2
+      name: Final Run animation spritesheet MC PGV_2
       rect:
         serializedVersion: 2
-        x: 1227
-        y: 47
-        width: 288
-        height: 397
+        x: 3060
+        y: 112
+        width: 727
+        height: 995
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b69f875d6ee5fdc47bac954651b6fc05
-      internalID: 2064641615
+      spriteID: f19165468dc58b24cbc5397fd2c7b636
+      internalID: 737498490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prototype_spritesheet_run_PGV_3
+      name: Final Run animation spritesheet MC PGV_3
       rect:
         serializedVersion: 2
-        x: 1773
-        y: 76
-        width: 300
-        height: 374
+        x: 4424
+        y: 170
+        width: 756
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4060824e31b263d409117843fac929dc
-      internalID: 91098816
+      spriteID: 957a14ed3616aad4180aad1c1fabe725
+      internalID: -1868053614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prototype_spritesheet_run_PGV_4
+      name: Final Run animation spritesheet MC PGV_4
       rect:
         serializedVersion: 2
-        x: 2309
-        y: 71
-        width: 352
-        height: 375
+        x: 5778
+        y: 175
+        width: 876
+        height: 941
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58915ab75834f484da735b4abdf31e34
-      internalID: -257733154
+      spriteID: 236b18b2ffd5b5f499a366ea48829db2
+      internalID: -281783220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prototype_spritesheet_run_PGV_5
+      name: Final Run animation spritesheet MC PGV_5
       rect:
         serializedVersion: 2
-        x: 2856
-        y: 49
-        width: 352
-        height: 386
+        x: 7214
+        y: 112
+        width: 765
+        height: 976
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18c7871cf8045f418fd089ce19f1b34
-      internalID: -834169692
+      spriteID: 2032664aed1a740418ea30770bcb7704
+      internalID: -1704879679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Prototype_spritesheet_run_PGV_6
+      name: Final Run animation spritesheet MC PGV_6
       rect:
         serializedVersion: 2
-        x: 3429
-        y: 47
-        width: 323
-        height: 388
+        x: 8566
+        y: 156
+        width: 844
+        height: 956
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,29 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee150d721ad2844478099e1c991034fc
-      internalID: -550126011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Prototype_spritesheet_run_PGV_7
-      rect:
-        serializedVersion: 2
-        x: 4017
-        y: 72
-        width: 304
-        height: 373
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be95eb47b74622c46ae2c7105565b875
-      internalID: -2047977617
+      spriteID: e1abf2367a7e3e947ad6ef248024ac0a
+      internalID: 1198350090
       vertices: []
       indices: 
       edges: []
@@ -275,14 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Prototype_spritesheet_run_PGV_0: -212153425
-      Prototype_spritesheet_run_PGV_1: -1461730086
-      Prototype_spritesheet_run_PGV_2: 2064641615
-      Prototype_spritesheet_run_PGV_3: 91098816
-      Prototype_spritesheet_run_PGV_4: -257733154
-      Prototype_spritesheet_run_PGV_5: -834169692
-      Prototype_spritesheet_run_PGV_6: -550126011
-      Prototype_spritesheet_run_PGV_7: -2047977617
+      Final Run animation spritesheet MC PGV_0: 990382696
+      Final Run animation spritesheet MC PGV_1: 1379560622
+      Final Run animation spritesheet MC PGV_2: 737498490
+      Final Run animation spritesheet MC PGV_3: -1868053614
+      Final Run animation spritesheet MC PGV_4: -281783220
+      Final Run animation spritesheet MC PGV_5: -1704879679
+      Final Run animation spritesheet MC PGV_6: 1198350090
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

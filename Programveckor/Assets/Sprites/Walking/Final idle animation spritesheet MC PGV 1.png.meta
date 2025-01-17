@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 3faf562f40405a340826b7696536d302
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 74
+        width: 436
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57abb4b8fe399a438d8b8c8231cfc34
+      internalID: 1345483626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 74
+        width: 432
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619293e2d1fb95248a99cd7d2a9e5313
+      internalID: -430644767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_2
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 74
+        width: 436
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9d984fd5c77e6468f9d7228e969937
+      internalID: 1132062945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_3
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 74
+        width: 436
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd08a489392e94e4a99d63d15181c63e
+      internalID: -205213696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_4
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 74
+        width: 432
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415747780e11fd846acd075d4aaa8005
+      internalID: 646446382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_5
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 74
+        width: 436
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b32ee589e07a74d8ec0bd40bc1c7cd
+      internalID: -866471190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_6
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 74
+        width: 436
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36f3edbd81ba364b971f5c76d0290a1
+      internalID: -1111888693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_7
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 74
+        width: 432
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae12ef82f86c74c45b30d662a5203377
+      internalID: -179493162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_8
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 74
+        width: 435
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a43ccb7c48144186c06c04d52a1ab
+      internalID: -1863869447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_9
+      rect:
+        serializedVersion: 2
+        x: 4208
+        y: 74
+        width: 436
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb43d7bd68d96d4595a9c874605a941
+      internalID: -1550737618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_10
+      rect:
+        serializedVersion: 2
+        x: 4677
+        y: 74
+        width: 432
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9710feaaf5aab8e4c9b9d0d364eddca8
+      internalID: -767841520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_11
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 74
+        width: 436
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a8de071b8de1848848c510aede8eff
+      internalID: -496141039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_12
+      rect:
+        serializedVersion: 2
+        x: 5606
+        y: 74
+        width: 436
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c09fe043aa3b747833733c7e394725
+      internalID: 1608321003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_13
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 74
+        width: 432
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a624732fe7ff184468b6628d89bc0dac
+      internalID: 1340303994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_14
+      rect:
+        serializedVersion: 2
+        x: 6540
+        y: 74
+        width: 436
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c004b2e6c43624882d35149dd1948d
+      internalID: -2009833387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_15
+      rect:
+        serializedVersion: 2
+        x: 7004
+        y: 74
+        width: 436
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1325420cf37fc43b0128caaad1e58a
+      internalID: 1663632954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_16
+      rect:
+        serializedVersion: 2
+        x: 7473
+        y: 74
+        width: 432
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18cf93f787832140a896800d951eff3
+      internalID: 1012777545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_17
+      rect:
+        serializedVersion: 2
+        x: 7938
+        y: 74
+        width: 436
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d6adec612fdc4469edffb2d83c3642
+      internalID: -1014205250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_18
+      rect:
+        serializedVersion: 2
+        x: 8402
+        y: 74
+        width: 436
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7bf928300898147ac05bd941cd3f89
+      internalID: 973168322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_19
+      rect:
+        serializedVersion: 2
+        x: 8871
+        y: 74
+        width: 432
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa3d9bf246bdcc44aeed34e0ec11a50
+      internalID: -1331782538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_20
+      rect:
+        serializedVersion: 2
+        x: 9336
+        y: 74
+        width: 435
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd78fd62b302a141a9a36ec2fabd51c
+      internalID: -962993330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_21
+      rect:
+        serializedVersion: 2
+        x: 9800
+        y: 74
+        width: 436
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5954d3ed4d5c4f84c9c5450cda86ff43
+      internalID: -96144812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_22
+      rect:
+        serializedVersion: 2
+        x: 10269
+        y: 74
+        width: 432
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ad6d4e62ef3584390b17b075519fee
+      internalID: 571905470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final idle animation spritesheet MC PGV_23
+      rect:
+        serializedVersion: 2
+        x: 10734
+        y: 74
+        width: 436
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a116c069e544a41a0f7535bcfda028
+      internalID: 1460739196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Final idle animation spritesheet MC PGV_0: 1345483626
+      Final idle animation spritesheet MC PGV_1: -430644767
+      Final idle animation spritesheet MC PGV_10: -767841520
+      Final idle animation spritesheet MC PGV_11: -496141039
+      Final idle animation spritesheet MC PGV_12: 1608321003
+      Final idle animation spritesheet MC PGV_13: 1340303994
+      Final idle animation spritesheet MC PGV_14: -2009833387
+      Final idle animation spritesheet MC PGV_15: 1663632954
+      Final idle animation spritesheet MC PGV_16: 1012777545
+      Final idle animation spritesheet MC PGV_17: -1014205250
+      Final idle animation spritesheet MC PGV_18: 973168322
+      Final idle animation spritesheet MC PGV_19: -1331782538
+      Final idle animation spritesheet MC PGV_2: 1132062945
+      Final idle animation spritesheet MC PGV_20: -962993330
+      Final idle animation spritesheet MC PGV_21: -96144812
+      Final idle animation spritesheet MC PGV_22: 571905470
+      Final idle animation spritesheet MC PGV_23: 1460739196
+      Final idle animation spritesheet MC PGV_3: -205213696
+      Final idle animation spritesheet MC PGV_4: 646446382
+      Final idle animation spritesheet MC PGV_5: -866471190
+      Final idle animation spritesheet MC PGV_6: -1111888693
+      Final idle animation spritesheet MC PGV_7: -179493162
+      Final idle animation spritesheet MC PGV_8: -1863869447
+      Final idle animation spritesheet MC PGV_9: -1550737618
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

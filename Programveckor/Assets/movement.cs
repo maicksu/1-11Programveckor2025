@@ -1,48 +1,58 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class movement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    Rigidbody2D rb;
-    public int accelerationSpeed;
-    public int maxSpeed;
-    public int friction;
+    public float moveSpeed = 5f;
+    public float jumpForce = 10f;
+    private Rigidbody2D rb;
+    private Animator animator;
+    private bool isGrounded;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-   
-        rb.velocity = new Vector2(0, rb.velocity.y);
+        HandleMovement();
+        HandleJumping();
+        UpdateAnimations();
+    }
 
-        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.A))
+    void HandleMovement()
+    {
+        float moveInput = Input.GetAxisRaw("Horizontal");
+        Vector2 move = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+        rb.velocity = move;
+
+        // Flip character based on movement direction
+        if (moveInput != 0)
         {
-            rb.velocity = new Vector2(-10, rb.velocity.y);
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            {
-                rb.velocity = new Vector2(-5, rb.velocity.y);
-            }
-            // walk left
+            transform.localScale = new Vector3(Mathf.Sign(moveInput), 1, 1);
         }
 
-        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.D))
+        // Set walking animation
+        animator.SetBool("isWalking", moveInput != 0);
+    }
+
+    void HandleJumping()
+    {
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.velocity = new Vector2(10, rb.velocity.y);
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            rb.velocity = new Vector2(5, rb.velocity.y);
-            // walk right
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
+
+    void UpdateAnimations()
+    {
+        // Check if grounded
+        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 1f, LayerMask.GetMask("Ground"));
+
+        // Set animation states
+        animator.SetBool("isJumping", !isGrounded && rb.velocity.y > 0); // Jumping
+        animator.SetBool("isFalling", !isGrounded && rb.velocity.y < 0); // Falling
+    }
 }
+
