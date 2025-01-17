@@ -7,15 +7,18 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private bool isGrounded;
-
+    Animator PlayWalk;
+    private float moveInput;
     void Start()
     {
+        PlayWalk = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
     void Update()
     {
+        
         HandleMovement();
         HandleJumping();
         UpdateAnimations();
@@ -35,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Set walking animation
         animator.SetBool("isWalking", moveInput != 0);
+        animator.SetFloat("xVelocity", Mathf.Abs(moveInput));
     }
 
     void HandleJumping()
@@ -53,6 +57,7 @@ public class PlayerMovement : MonoBehaviour
         // Set animation states
         animator.SetBool("isJumping", !isGrounded && rb.velocity.y > 0); // Jumping
         animator.SetBool("isFalling", !isGrounded && rb.velocity.y < 0); // Falling
+        animator.SetBool("isWalking", moveInput != 0 && isGrounded);
     }
 }
 
