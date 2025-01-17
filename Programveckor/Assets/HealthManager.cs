@@ -93,7 +93,7 @@ public class HealthManager : MonoBehaviour
     {
         UpdateHealthBar();
 
-        if (Input.GetKeyDown(KeyCode.Space)) // Press Space to simulate damage
+        if (Input.GetKeyDown(KeyCode.P)) // Press Space to simulate damage
         {
             TakeDamage(10f);
         }
