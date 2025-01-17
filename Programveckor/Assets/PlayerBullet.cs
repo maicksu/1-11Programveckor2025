@@ -9,13 +9,12 @@ public class PlayerShoot : MonoBehaviour
     Animator ArrowAttack;
     private Vector2 shootingDirection = Vector2.right; // Default shooting direction (right)
     private float nextShootTime = 0f; // Tracks when the player can shoot again
-
+    
     private void Start()
     {
         // Ensure the fire point is correctly set
         firePoint = transform;
         ArrowAttack = GetComponent<Animator>();
-
     }
 
     void Update()
@@ -24,10 +23,14 @@ public class PlayerShoot : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             shootingDirection = Vector2.right; // Forward
+            
         }
         else if (Input.GetKey(KeyCode.A))
         {
+            
             shootingDirection = Vector2.left; // Backward
+                      
+
         }
 
         // Check for shooting input and cooldown
@@ -41,7 +44,15 @@ public class PlayerShoot : MonoBehaviour
     void Shoot()
     {
         // Instantiate the bullet at the fire point's position and rotation
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation );
+        if(shootingDirection.x > 0)
+        {
+            bullet.transform.GetChild(0).GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else
+        {
+            bullet.transform.GetChild(0).GetComponent<SpriteRenderer>().flipX = true;
+        }
         ArrowAttack.Play("ArrowAttack");
         // Apply velocity to the bullet using its Rigidbody2D
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
