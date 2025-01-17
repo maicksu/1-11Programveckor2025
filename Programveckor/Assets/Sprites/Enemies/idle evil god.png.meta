@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 63fc35e04dc594a4eb80982321aec457
+guid: 1a2a0513d7a9179469c68465a3d81077
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Placeholder Idle animation-min_0
+      name: idle evil god_0
       rect:
         serializedVersion: 2
-        x: 405
-        y: 106
-        width: 558
-        height: 1041
+        x: 4786
+        y: 1233
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64327597bac00fd48b38d812d6b83688
-      internalID: -1493665560
+      spriteID: 72cf33ddda26fbd4baa8705034fc256b
+      internalID: 853344050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle evil god_1
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 699
+        width: 486
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9f1b641c9e027409aba8c4d4f5409d
+      internalID: -2140754119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle evil god_2
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 699
+        width: 492
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78418757a2e7bd74a8a95cdc7375720f
+      internalID: -401745668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle evil god_3
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 699
+        width: 478
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ab77f1bfc159249bfab140cff96542
+      internalID: -1661711199
       vertices: []
       indices: 
       edges: []
@@ -128,7 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Placeholder Idle animation-min_0: -1493665560
+      idle evil god_0: 853344050
+      idle evil god_1: -2140754119
+      idle evil god_2: -401745668
+      idle evil god_3: -1661711199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
