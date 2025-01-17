@@ -6,7 +6,7 @@ public class PlayerShoot : MonoBehaviour
     public Transform firePoint;     // The position where the bullet spawns
     public float bulletSpeed = 20f; // Speed of the bullet
     public float shootCooldown = 0.5f; // Cooldown time between shots (0.5 seconds)
-
+    Animator ArrowAttack;
     private Vector2 shootingDirection = Vector2.right; // Default shooting direction (right)
     private float nextShootTime = 0f; // Tracks when the player can shoot again
 
@@ -14,6 +14,8 @@ public class PlayerShoot : MonoBehaviour
     {
         // Ensure the fire point is correctly set
         firePoint = transform;
+        ArrowAttack = GetComponent<Animator>();
+
     }
 
     void Update()
@@ -40,7 +42,7 @@ public class PlayerShoot : MonoBehaviour
     {
         // Instantiate the bullet at the fire point's position and rotation
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-
+        ArrowAttack.Play("ArrowAttack");
         // Apply velocity to the bullet using its Rigidbody2D
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         if (rb != null)
