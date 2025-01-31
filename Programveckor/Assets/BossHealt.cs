@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BossHealth : MonoBehaviour
 {
-    private int maxHits = 50;  // Number of hits the boss can take
+    private int maxHits = 5;  // Number of hits the boss can take
     private int currentHits = 0;  // Tracks how many hits the boss has taken
 
     public void TakeDamage()
