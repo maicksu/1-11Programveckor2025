@@ -34,7 +34,7 @@ public class PlayerShoot : MonoBehaviour
         }
 
         // Check for shooting input and cooldown
-        if ((Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.LeftAlt)) && Time.time >= nextShootTime)
+        if ((Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.LeftAlt) || Input.GetMouseButtonDown(1) ) && Time.time >= nextShootTime)
         {
             Shoot();
             nextShootTime = Time.time + shootCooldown; // Update the next allowed shoot time
