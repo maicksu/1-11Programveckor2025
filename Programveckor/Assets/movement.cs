@@ -45,18 +45,25 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            animator.SetBool("isJumping", true);
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
 
     void UpdateAnimations()
     {
+
+
         // Check if grounded
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 1f, LayerMask.GetMask("Ground"));
+        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, LayerMask.GetMask("Ground"));
+
+        if (isGrounded)
+        {
+            animator.SetBool("isJumping", false);
+
+        }
 
         // Set animation states
-        animator.SetBool("isJumping", !isGrounded && rb.velocity.y > 0); // Jumping
-        animator.SetBool("isFalling", !isGrounded && rb.velocity.y < 0); // Falling
         animator.SetBool("isWalking", moveInput != 0 && isGrounded);
     }
 }

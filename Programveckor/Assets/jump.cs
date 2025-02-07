@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerJump : MonoBehaviour
 {
     private float jumpForce = 7f;
+    private Animator animator;
     public bool isGrounded = true;
     private int jumpCount = 0; // Track the number of jumps
     public int maxJumps = 2;   // Maximum number of jumps allowed
@@ -11,6 +12,7 @@ public class PlayerJump : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         if (rb == null)
         {
@@ -20,10 +22,16 @@ public class PlayerJump : MonoBehaviour
 
     void Update()
     {
+        if (isGrounded)
+        {
+            animator.SetBool("isJumping", false);
+
+        }
         // Check for jump input and if jumps are available
         if (Input.GetKeyDown(KeyCode.Space) && jumpCount < maxJumps && rb != null)
         {
             Jump();
+            animator.SetBool("isJumping", true);
         }
     }
 
