@@ -20,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     {
         
         HandleMovement();
-        HandleJumping();
         UpdateAnimations();
     }
 
@@ -41,14 +40,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("xVelocity", Mathf.Abs(moveInput));
     }
 
-    void HandleJumping()
-    {
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            animator.SetBool("isJumping", true);
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-        }
-    }
+   
 
     void UpdateAnimations()
     {
